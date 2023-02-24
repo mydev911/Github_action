@@ -11,4 +11,9 @@ jobs:
      - name: multiple script
        run:
          node -v
-         npm -v  
+         npm -v 
+     - name: pythjon command
+       run: 
+         import platform
+         print(platform.processor())
+       shell: python 
