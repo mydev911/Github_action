@@ -12,7 +12,7 @@ jobs:
        run:
          node -v
          npm -v 
-     - name: pythjon command
+     - name: python command
        run: 
          import platform
          print(platform.processor())
