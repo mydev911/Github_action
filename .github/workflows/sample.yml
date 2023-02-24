@@ -9,11 +9,11 @@ jobs:
      - name: string
        run: echo "welcome to newyork"
      - name: multiple script
-       run:
+       run: |
          node -v
          npm -v 
      - name: python command
-       run: 
+       run: |
          import platform
          print(platform.processor())
        shell: python 
